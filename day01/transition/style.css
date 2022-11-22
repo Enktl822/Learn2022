@@ -1,0 +1,29 @@
+/* button {
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    color: grey;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 1s, width 1s, height 1s;
+
+}
+
+button:hover {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(12, 195, 195);
+    /* background-color: black; */
+    transition: background-color 1s, width 1s, height 1s, font 1s ;
+    /* erase-in-out 2s */
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black;
+    transition: background-color 1s, font 1s;
+    color: white;
+    font-size: 60px;
+} */

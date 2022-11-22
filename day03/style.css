@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+header {
+  background-color: #1a126b;
+  
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+header .logo {
+  /* background-color: orange; */
+  width: 20%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+header .logo p {
+  font-size: 20px;
+  color: white;
+}
+
+header .logo img {
+  width: 20px;
+  height: 20px;
+}
+
+header .menu-desktop {
+  /* background-color: brown; */
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+header .button {
+  background-color: aquamarine;
+  width: 20%;
+}
+
+header .menu-mobile {
+  display: none;
+}
+
+header .menu-desktop a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.account-container {
+  padding-left: 30px;
+  color: white;
+  font-size: 15px;
+}
+
+.account-container select {
+  background-color: #f2f2f2;
+  color: #0033cc;
+  padding: 2px;
+  border-radius: 10px;
+  /* -webkit-appearance: none; */
+  appearance: none;
+}
+
+/*   mobile  */
+
+@media screen and (max-width: 480px) {
+  header .menu-desktop {
+    display: none;
+  }
+
+  header .menu-mobile {
+    display: block;
+    background-color: #0033cc;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  header .menu-mobile a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+  }
+
+  header .logo {
+    width: 50%;
+  }
+
+  header .button {
+    width: 50%;
+  }
+
+  .head {
+    flex-wrap: wrap;
+  }
+}
