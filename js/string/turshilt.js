@@ -1,14 +1,15 @@
-const lorem =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-console.log(lorem.length);
+let temdegt = "Odoo charact ashiglaj baina";
+console.log(temdegt.charAt(3));
 
-let whyDoWe =
-  "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.";
-console.log(whyDoWe.length);
+let temdegt2 = "Where can I get some?";
+console.log(temdegt2.charAt(1));
+console.log(temdegt2[1]);
 
-const lorem1 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
-console.log(lorem1.charAt(2));
+let heddehNi = "ene oguulberiig tom bolgoyo";
+console.log(heddehNi.toUpperCase());
 
-let whyDoWe1 = "It is a long established fact that a reader";
-console.log(whyDoWe.charAt(1));
+let heddehNi1 = "Ene oguulber Yamar bolohiin medehgui bn";
+console.log(heddehNi1.toLocaleLowerCase());
+
+let firstName = "john";
+let fullname = firstName.concat("", "Smith");
