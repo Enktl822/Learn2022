@@ -3,8 +3,7 @@
 // qatishmarket baigaa bol string
 //    \ -white space -> tuga temdeglegee hiij bolno
 
-let mystring = "single quote' double qoutes \" ";
-console.log(mystring);
+
 
 // length-urt -> temdegtiin urtiin tooldog
 //  doosh unagaamaar /m
