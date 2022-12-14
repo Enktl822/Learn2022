@@ -15,6 +15,6 @@ for (let n = 0; n < 16; n++) {
   newBox.style.width = "100px";
   newBox.style.height = "100px";
   if (d == n) {
-    newBox.style.backgroundColor = `rgb(${r - 80},${g},${b}`;
+    newBox.style.backgroundColor = `rgb(${r - 60},${g},${b}`;
   }
 }
