@@ -1,0 +1,16 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+.root {
+  background-color: aquamarine;
+  margin: 20px;
+}
+
+.card {
+  height: 382px;
+}
